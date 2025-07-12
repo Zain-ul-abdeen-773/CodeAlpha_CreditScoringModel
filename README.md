@@ -97,19 +97,19 @@ CodeAlpha_CreditScoringModel/
 ├── app.py                  # Flask app main script
 ├── templates/
 │   ├── index.html
-│   ├── result.html
+│   
 │
 ├── static/
-│   ├── images/             # All EDA & model graphs
+│   ├── images/
+|   |__styles.css          # All EDA & model graphs
 │
 ├── dataset/
-│   └── german_credit_data.csv
+│   └── dataset.csv
 │
-├── notebooks/
-│   └── credit_scoring_model.ipynb
+
 │
 ├── models/
-│   └── model.pkl           # Trained ML model
+│   └── model.ipynb         # Trained ML model
 │
 ├── plots/
 │   ├── correlation_heatmap.png
