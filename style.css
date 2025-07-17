@@ -1,0 +1,34 @@
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card, .table {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+}
+
+button {
+    background-color: #238636;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: #2ea043;
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0,255,120,0.2);
+    transition: transform 0.3s;
+}
+img:hover {
+    transform: scale(1.03);
+}
